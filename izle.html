@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İzle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="shortcut icon" href="resimler/favicon.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: black;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a1690affb8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Dizigo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"><i class="fa-solid fa-house-user"></i> Ana Sayfa</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-clapperboard"></i> Tür
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Aksiyon</a></li>
+                  <li><a class="dropdown-item" href="#">Korku</a></li>
+                  <li><a class="dropdown-item" href="#">Romantik</a></li>
+                  <li><a class="dropdown-item" href="#">Bilim Kurgu</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-calendar"></i> Yayınlanma Tarihi
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">2022</a></li>
+                  <li><a class="dropdown-item" href="#">2021</a></li>
+                  <li><a class="dropdown-item" href="#">2020</a></li>
+                  <li><a class="dropdown-item" href="#">2019</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-comment"></i> Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-book"></i> Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ne izlemek istersin?" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Ara </button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div style="text-align: center; margin-top: 20px;" class="col-9">
+            <iframe style="width: 100%; height: 450px;" src="https://www.youtube.com/embed/VSgm-gcP_GU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <button type="button" class="btn btn-danger disabled"><i class="fa-solid fa-arrow-left"></i> Önceki Bölüm</button>
+            <button type="button" class="btn btn-danger"><i class="fa-solid fa-arrow-right"></i> Sonraki Bölüm</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-clapperboard"></i> Kaynak
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Kaynak #1 (Türkçe Altyazılı)</a></li>
+                    <li><a class="dropdown-item" href="#">Kaynak #2 (Türkçe Dublaj)</a></li>
+                  </ul>
+            </div>
+            <button type="button" class="btn btn-warning"><i class="fa-solid fa-circle-exclamation"></i> Sorun Bildir</button>
+        </div>
+        <div class="col-3">
+            <div class="overflow-x:auto;">
+                <table style="border-collapse: collapse;
+                border-spacing: 0;
+                width: 75%;" class="table text-light">
+                    <thead>
+                      <tr>
+                        <th scope="col">Bölümler</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 1. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 2. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 3. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 4. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 5. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 6. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 7. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 8. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 9. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 10. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 11. Bölüm</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a class="text-light" href="#">1.Sezon 12. Bölüm</a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+      </div>
+<footer>
+    <p style="text-align: center; padding-top: 25px;" class="text-secondary">Copyright © Dizigo 2022. Tüm hakları saklıdır.</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</footer>
+</body>
+</html>
